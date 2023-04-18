@@ -17,16 +17,6 @@ var
 	xm, ym : integer;
 	cap, coada : vec_xy;
 
-{procedure trasare_linii;
-var i, j : integer;
-begin
-	setfillstyle(1, 4); setcolor(4);
-	for i := 5 to x-15 do 
-		if i mod 15 = 4 then line(i, 13, i, y - 1);
-	for j := 14 to y do
-		if j mod 15 = 13 then line(5, j, x - 5, j);
-end;}
-
 
 
 {modifica viteza in functie de scor}
